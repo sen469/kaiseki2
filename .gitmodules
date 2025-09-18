@@ -1,0 +1,3 @@
+[submodule "kaiseki"]
+	path = kaiseki
+	url = git@github.com:sen469/kaiseki.git
