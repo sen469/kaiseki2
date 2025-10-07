@@ -15,3 +15,4 @@ function z_Symplectic(N, a, b)
 	xlabel('y1-axis')
 	ylabel('y2-axis')
 	fprintf("y1(N + 1) = %.15e, y2(N + 1) = %.15e\n", y1(N + 1), y2(N + 1));
+end
