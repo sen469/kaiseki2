@@ -29,7 +29,7 @@ function z_Fractal(p, coeffs)
 		end
 	end
 
-	figure;
+	% figure;
 	imagesc(fracMat);
 	colormap("parula");
 	axis("square", 'equal', 'off');
