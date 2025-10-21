@@ -43,9 +43,27 @@ function [L, U, invA] = z_LUdecomposition(C)
 
     % 結果出力
     disp('L =');
-    disp(L);
+    % disp(L);
+    for i = 1 : n
+        for j = 1 : n
+            fprintf("%.4e\t", L(i, j));
+        end
+        fprintf("\n");
+    end
     disp('U =');
-    disp(U);
+    for i = 1 : n
+        for j = 1 : n
+            fprintf("%.4e\t", U(i, j));
+        end
+        fprintf("\n");
+    end
+    % disp(U);
     disp('inv(A) =');
-    disp(invA);
+    for i = 1 : n
+        for j = 1 : n
+             fprintf("%.4e\t", invA(i, j));
+       end
+        fprintf("\n");
+    end
+    % disp(invA);
 end
