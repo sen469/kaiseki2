@@ -1,4 +1,5 @@
 % LU分解
+% Cx = bの連立方程式
 function [A, x] = LUdecomposition(C, b)
 	A = C;
 	n = length(A);
