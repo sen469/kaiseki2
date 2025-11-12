@@ -10,9 +10,9 @@ function ex023(steps)
     cy = ceil(N / 2);
 	for i = cx - 10 : cx + 10
 		if i < cx
-			grid(cy, i) = 1;
-		elseif i > cx
 			grid(cy, i) = 2;
+		elseif i > cx
+			grid(cy, i) = 1;
 		end
 	end
 
